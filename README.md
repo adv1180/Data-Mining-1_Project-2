@@ -7,9 +7,9 @@
 * **Dataset:** 278 samples with 7,389 SNP marker features + target variable (`dtoa`).
 * **Data Source:** Buckler et al. (2009), "The Genetic Architecture of Maize Flowering Time," Science 325.
 * **Models Implemented:**
-    * Ridge Regression (L2 regularization)
-    * Lasso Regression (L1 regularization)
-    * Elastic Net
+    * Ridge Regression Cross-Validation (L2 regularization)
+    * Lasso Regression Cross-Validation (L1 regularization)
+    * Elastic Net Cross-Validation
     * Principal Components Regression (PCR)
     * Partial Least Squares (PLS)
     * Criterion-Based Selection (LassoLarsIC using AIC/BIC)
